@@ -17,15 +17,16 @@ if sys.version_info <= (3,):
 
 
 setup(
-    name='ckanapi',
+    name='ckanapi-streaming',
     version='4.1',
     description=
-        'A command line interface and Python module for '
-        'accessing the CKAN Action API',
+    'A command line interface and Python module for '
+    'accessing the CKAN Action API. Forked from ckanapi with additions
+    to enable streaming. See https://github.com/ckan/ckanapi/pull/109',
     license='MIT',
-    author='Ian Ward',
-    author_email='ian@excess.org',
-    url='https://github.com/ckan/ckanapi',
+    author='Harald von Waldow',
+    author_email='harald.vonwaldow@eawag.ch',
+    url='https://github.com/eawag-rdm//ckanapi-streaming',
     packages=[
         'ckanapi',
         'ckanapi.tests',
