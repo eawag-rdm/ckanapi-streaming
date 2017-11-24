@@ -21,12 +21,12 @@ setup(
     version='4.1',
     description=
     'A command line interface and Python module for '
-    'accessing the CKAN Action API. Forked from ckanapi with additions
-    to enable streaming. See https://github.com/ckan/ckanapi/pull/109',
+    'accessing the CKAN Action API. Forked from ckanapi with additions '
+    'to enable streaming. See https://github.com/ckan/ckanapi/pull/109',
     license='MIT',
     author='Harald von Waldow',
     author_email='harald.vonwaldow@eawag.ch',
-    url='https://github.com/eawag-rdm//ckanapi-streaming',
+    url='https://github.com/eawag-rdm/ckanapi-streaming.git',
     packages=[
         'ckanapi',
         'ckanapi.tests',
