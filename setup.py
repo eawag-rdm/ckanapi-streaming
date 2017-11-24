@@ -17,7 +17,7 @@ if sys.version_info <= (3,):
 
 
 setup(
-    name='ckanapi-streaming',
+    name='ckanapi',
     version='4.1',
     description=
     'A command line interface and Python module for '
