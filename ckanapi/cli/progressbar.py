@@ -29,6 +29,7 @@ def mkprogress(encoder):
             bar.show(monitor.bytes_read)
         elif not waiting[0]:
             waiting[0] = True
+            bar.done()
             print ('\nwaiting for server-side processing ...')
             
     return callback
